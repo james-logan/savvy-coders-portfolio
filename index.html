@@ -4,6 +4,8 @@
   <head>
     <title>James Logan | Web Developer</title>
 
+    <link rel="stylesheet" type="text/css" href="styles/style.css">
+
 
     <style>
       body {
@@ -24,6 +26,12 @@
         color: red;
       }
 
+      #greeting {
+        border: 1px solid black;
+        display: inline;
+        width: 200px;
+      }
+
 
     </style>
 
@@ -32,24 +40,36 @@
 
   <body style="">
 
-    <!-- <ul>
-      <li>
-        <a href="">Home</a>
-      </li>
-      <li>
-        <a href="/projects">Projects</a>
-      </li>
-    </ul> -->
+    <div id="navbar">
+      <ul>
+        <li>
+          <a href="/">Home</a>
+        </li>
+        <li>
+          <a href="/blog">Blog</a>
+        </li>
+        <li>
+          <a href="/projects">Projects</a>
+        </li>
+        <li>
+          <a href="/contact">Contact</a>
+        </li>
+      </ul>
+    </div>
 
-    <!-- ![alt text](https://i.imgur.com/81qyN1y.jpg) -->
-    <!-- <img style="height:500px;width:500px" src="https://i.imgur.com/81qyN1y.jpg"> -->
+
+    <div id="greeting" class="section">
+      <h1>Hello!</h1>
+      <p>This content is all related!</p>
+      <p>Nice that we can group it using a "div" tag!</p>
+    </div>
 
 
-    <h1 style=""> Welcome to My Github! </h1>
+    <h1> Welcome to My Github! </h1>
 
-    <p style="font-size:45px; font-family: Helvetica; text-align: right">
+    <p>
       Just text. Hey there! Welcome to my Github - I'm a
-      <i style="color: black">new web developer in the Nashville area</i>
+      <span id="italics_guy" style="color: black">new web developer in the Nashville area</span>
       , just starting my journey to learn about web development! I'm excited to learn things.
     </p>
 

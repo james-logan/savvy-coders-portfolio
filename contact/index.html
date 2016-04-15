@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>James Logan | Contact</title>
+  <link type="text/css" rel="stylesheet" href="../css/style.css"/>
+
+  <style>
+    input {
+      display: block;
+    }
+
+    label input {
+      display: inline;
+    }
+  </style>
+
+</head>
+<body>
+  <div id="navbar">
+    <ul>
+      <li>
+        <a href="/">Home</a>
+      </li>
+      <li>
+        <a href="/blog">Blog</a>
+      </li>
+      <li>
+        <a href="/projects">Projects</a>
+      </li>
+      <li>
+        <a href="/contact">Contact</a>
+      </li>
+    </ul>
+  </div>
+  <div class="header">
+    <h2>Contact Me!</h2>
+    <p>Thanks for coming to my site! If you like my work, send me message! I'd love to work with you.</p>
+  </div>
+  <form action="//formspree.io/jamesblogan20@gmail.com" method="POST">
+    <label>
+      Name
+      <input type="text" name="name" placeholder="First Last">
+    </label>
+
+    <label>
+      Email
+      <input type="email" name="email" placeholder="example@example.com">
+    </label>
+
+    <textarea placeholder="Tell me what you think..." name="message"></textarea>
+
+    <input type="submit">
+
+  </form>
+
+
+</body>
+</html>

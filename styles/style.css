@@ -1,0 +1,96 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+}
+
+h2, #header p {
+
+  color: rgba(255, 255, 255, .75);
+}
+
+#header {
+  margin-top: 65px;
+  padding-left: 15px;
+}
+
+#navbar li {
+  display: inline;
+}
+
+#navbar a {
+  text-decoration: none;
+  color: white;
+}
+
+#navbar {
+  width: 100%;
+  background: rgba(0, 0, 0, .85);
+  color: white;
+  height: 50px;
+  position: fixed;
+  left: 0;
+  top: 0;
+  z-index: 10;
+}
+
+div.blog_post {
+  background-color: white;
+  background-attachment: scroll;
+  width: 100%;
+  opacity: .85;
+  border-radius: 5px;
+  padding: 1px 10px 10px 10px;
+  margin-bottom: 25px;
+}
+
+
+.blog_post span {
+  font-style: italic;
+  font-size: 110%;
+}
+
+#container {
+  max-width: 960px;
+  margin: 0 auto;
+  height: 700px;
+}
+
+/*COLUMNS DONE WITH FLOATING ABSOLUTE POSITIONING*/
+
+/*This is how we did it with absolute positioning*/
+
+#container {
+  position: relative;
+}
+
+#content {
+  position: absolute;
+  left: 0;
+  top: 0;
+}
+
+#sidebar {
+  margin-left: 600px;
+}
+
+/*^^^^ABSOLUTE POSITION^^^^^^*/
+
+
+/*COLUMNS DONE WITH FLOATING BELOW*/
+
+
+/*#content {
+  width: 70%;
+  float: left;
+  overflow: hidden;
+}
+
+#sidebar {
+  width: 30%;
+  float: left;
+}*/
+
+/*END OF COLUMNS DONE WITH FLOATING*/
